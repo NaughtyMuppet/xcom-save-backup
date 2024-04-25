@@ -1,6 +1,6 @@
 # xcom-save-backup
 
-Designed to backup savegames.
+Designed to backup savegames. Organizes backups by campaign and date, adds a bit of information to the save.
 
 ## Backup structure
 
@@ -14,7 +14,7 @@ Designed to backup savegames.
 ## Usage
 
 1. Clone this repo
-2. Install Node.js (minimum version 20)
+2. Install Node.js (Minimum version is 18)
 3. In terminal run `npm ci` to install dependencies
 4. `npm start` to start watching saves.
 
