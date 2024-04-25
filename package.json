@@ -1,0 +1,23 @@
+{
+  "name": "xcom-save-backup",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Muppet",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "luxon": "^3.4.4",
+    "mkdirp": "^3.0.1",
+    "typescript": "^5.4.5",
+    "xcom-save-parser": "github:NaughtyMuppet/xcom-save-parser"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2"
+  }
+}

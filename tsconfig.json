@@ -1,0 +1,13 @@
+{
+    "ts-node": {
+        "files": true
+    },
+    "compilerOptions": {
+        "strict": true,
+        "module": "CommonJS",
+        "lib": ["ES2022"],
+        "inlineSourceMap": true,
+        "moduleResolution": "Node"
+    },
+    "include": ["src/index.ts"]
+}
